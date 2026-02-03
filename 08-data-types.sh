@@ -10,3 +10,7 @@ echo "The sum of $NUM1 and $NUM2 is: $SUM"
 #Arrays example
 FRUITS=("Apple" "Banana" "Cherry" "Date")
 echo "Fruits in the array are: ${FRUITS[@]}"
+echo "First Fruit:${FRUITS[0]}"
+echo "Second Fruit:${FRUITS[1]}"
+echo "Third Fruit:${FRUITS[2]}"
+echo "Fourth Fruit:${FRUITS[3]}"
