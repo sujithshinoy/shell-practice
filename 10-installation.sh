@@ -9,8 +9,8 @@ echo "please run the script as root user access"
 exit 1
 fi
 
-echo "Installing the Ngincccx"
-dnf install nginx -y
+echo "Installing the Nginx"
+dnf install nginxccc -y
 
 
 if [ $? -ne 0 ]; then
