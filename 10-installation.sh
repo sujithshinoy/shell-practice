@@ -13,3 +13,10 @@ echo "Installing the Nginx"
 dnf install nginx -y
 
 
+if [ $? -ne 0 ]; then
+echo "Nginx installation failed"
+exit 1
+elif [ $? -eq 0 ]; then
+echo "Nginx installation is successful"
+fi
+
