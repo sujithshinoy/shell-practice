@@ -20,3 +20,19 @@ elif [ $? -eq 0 ]; then
 echo "Nginx installation is successful"
 fi
 
+dnf install mysql -y
+if [ $? -ne 0 ]; then
+echo "mysql installation failed"
+exit 1
+elif [ $? -eq 0 ]; then
+echo "mysql installation is successful"
+fi
+
+
+dnf install nodejs -y
+if [ $? -ne 0 ]; then
+echo "nodejs installation failed"
+exit 1
+elif [ $? -eq 0 ]; then
+echo "nodejs installation is successful"
+fi
